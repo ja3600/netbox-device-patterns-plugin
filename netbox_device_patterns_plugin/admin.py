@@ -1,14 +1,12 @@
 # copilot
 
 from django.contrib import admin
+
 from .models import (
-    Project,
     EndpointDefinition,
     EndpointInstance,
     PhysicalLink,
-    EndpointDefinitionTaggedItem,
-    EndpointInstanceTaggedItem,
-    ProjectTaggedItem,
+    Project,
 )
 
 

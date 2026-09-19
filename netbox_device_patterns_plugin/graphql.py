@@ -8,7 +8,6 @@ For Strawberry GraphQL documentation, see:
 https://strawberry.rocks/
 """
 
-from typing import List
 
 import strawberry
 import strawberry_django
@@ -30,7 +29,7 @@ class DevicepatternsQuery:
     """GraphQL queries for NetBox Device Patterns Plugin."""
 
     devicepatterns: DevicepatternsType = strawberry_django.field()
-    devicepatterns_list: List[DevicepatternsType] = strawberry_django.field()
+    devicepatterns_list: list[DevicepatternsType] = strawberry_django.field()
 
 
 schema = [

@@ -9,9 +9,8 @@ https://docs.djangoproject.com/en/stable/topics/http/urls/
 """
 
 from django.urls import path
-from netbox.views.generic import ObjectChangeLogView
 
-from . import models, views
+from . import views
 
 """urlpatterns = (
     path("device-patternss/", views.DevicepatternsListView.as_view(), name="devicepatterns_list"),
@@ -30,8 +29,6 @@ from . import models, views
 
 #copilot
 
-from django.urls import path
-from . import views
 
 urlpatterns = [
 

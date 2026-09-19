@@ -36,19 +36,19 @@ class DevicepatternsDeleteView(generic.ObjectDeleteView):
 # copilot
 
 from netbox.views import generic
-from .models import (
-    Project,
-    EndpointDefinition,
-    EndpointInstance,
-    PhysicalLink,
-)
+
 from .forms import (
-    ProjectForm,
     EndpointDefinitionForm,
     EndpointInstanceForm,
     PhysicalLinkForm,
+    ProjectForm,
 )
-
+from .models import (
+    EndpointDefinition,
+    EndpointInstance,
+    PhysicalLink,
+    Project,
+)
 
 #
 # Project Views

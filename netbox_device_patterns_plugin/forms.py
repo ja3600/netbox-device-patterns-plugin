@@ -17,11 +17,12 @@ class DevicepatternsForm(NetBoxModelForm):
 """
 
 from django import forms
+
 from .models import (
-    Project,
     EndpointDefinition,
     EndpointInstance,
     PhysicalLink,
+    Project,
 )
 
 

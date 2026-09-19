@@ -30,12 +30,11 @@ class Devicepatterns(NetBoxModel):
         return reverse("plugins:netbox_device_patterns_plugin:devicepatterns", args=[self.pk])
 '''
 
-from django.db import models
 from django.contrib.postgres.fields import JSONField
+from django.db import models
 from netbox.models import PrimaryModel
 from netbox.tags.models import TaggedItem
 from utilities.querysets import RestrictedQuerySet
-
 
 # code created by copilot
 
