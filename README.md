@@ -112,7 +112,7 @@ Please report bugs by opening an issue on our [GitHub Issues](https://github.com
 
 Feature requests can be submitted as [GitHub Issues](https://github.com/ja3600/netbox-device-patterns-plugin/issues) with the "enhancement" label.
 
-## Support
+## Support [Work in Progress]
 
 - **Documentation**: https://ja3600.github.io/netbox-device-patterns-plugin/
 - **Issues**: https://github.com/ja3600/netbox-device-patterns-plugin/issues
@@ -132,15 +132,15 @@ This package was created with [Cookiecutter](https://github.com/audreyr/cookiecu
 
 ## Random Stuff
 
-create a new repository on the command line
-git init
+### create a new repository on the command line
+```git init
 git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ja3600/netbox-device-patterns-plugin.git
 git push -u origin main
-
-…or push an existing repository from the command line
-git remote add origin https://github.com/ja3600/netbox-device-patterns-plugin.git
+```
+### or push an existing repository from the command line
+```git remote add origin https://github.com/ja3600/netbox-device-patterns-plugin.git
 git branch -M main
-git push -u origin main
+git push -u origin main```
